@@ -1,11 +1,11 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from 'material-ui-next/styles';
 
-import ChevronRight from '@material-ui/icons/ChevronRight';
-import ExpandMore from '@material-ui/icons/ExpandMore';
-import IconButton from 'material-ui/IconButton';
+import ChevronRight from 'material-ui-next-icons/ChevronRight';
+import ExpandMore from 'material-ui-next-icons/ExpandMore';
+import IconButton from 'material-ui-next/IconButton';
 
 const styles = theme => ({
   button: {

@@ -1,11 +1,11 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Button from 'material-ui/Button';
-import IconButton from 'material-ui/IconButton';
-import { withStyles } from 'material-ui/styles';
-import ChevronLeft from '@material-ui/icons/ChevronLeft';
-import ChevronRight from '@material-ui/icons/ChevronRight';
+import Button from 'material-ui-next/Button';
+import IconButton from 'material-ui-next/IconButton';
+import { withStyles } from 'material-ui-next/styles';
+import ChevronLeft from 'material-ui-next-icons/ChevronLeft';
+import ChevronRight from 'material-ui-next-icons/ChevronRight';
 import { firstRowOnPage, lastRowOnPage, calculateStartPage } from '@devexpress/dx-grid-core';
 
 const styles = theme => ({

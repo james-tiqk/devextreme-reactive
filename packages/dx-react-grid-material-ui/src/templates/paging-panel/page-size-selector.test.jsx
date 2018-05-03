@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Select from 'material-ui/Select';
-import { createMount, getClasses } from 'material-ui/test-utils';
+import Select from 'material-ui-next/Select';
+import { createMount, getClasses } from 'material-ui-next/test-utils';
 import { PageSizeSelector } from './page-size-selector';
 
 describe('PageSizeSelector', () => {

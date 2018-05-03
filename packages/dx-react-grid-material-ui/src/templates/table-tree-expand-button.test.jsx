@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { createShallow } from 'material-ui/test-utils';
-import IconButton from 'material-ui/IconButton';
+import { createShallow } from 'material-ui-next/test-utils';
+import IconButton from 'material-ui-next/IconButton';
 import { TableTreeExpandButton } from './table-tree-expand-button';
 
 describe('TableTreeExpandButton', () => {

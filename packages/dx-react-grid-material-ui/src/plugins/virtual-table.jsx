@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import { createRenderComponent } from '@devexpress/dx-react-core';
 import { Table as TableBase } from '@devexpress/dx-react-grid';
-import { TableBody, TableHead } from 'material-ui/Table';
+import { TableBody, TableHead } from 'material-ui-next/Table';
 import { Table } from '../templates/table';
 import { VirtualTableLayout } from '../templates/virtual-table-layout';
 import { TableRow } from '../templates/table-row';

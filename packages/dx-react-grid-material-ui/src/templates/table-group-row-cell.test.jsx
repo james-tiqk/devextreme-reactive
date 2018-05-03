@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { createMount, createShallow, getClasses } from 'material-ui/test-utils';
-import { TableCell } from 'material-ui/Table';
+import { createMount, createShallow, getClasses } from 'material-ui-next/test-utils';
+import { TableCell } from 'material-ui-next/Table';
 import { setupConsole } from '@devexpress/dx-testing';
 import { TableGroupCell } from './table-group-row-cell';
 

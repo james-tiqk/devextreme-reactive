@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Chip from 'material-ui/Chip';
-import { TableSortLabel } from 'material-ui/Table';
-import { createMount, createShallow, getClasses } from 'material-ui/test-utils';
+import Chip from 'material-ui-next/Chip';
+import { TableSortLabel } from 'material-ui-next/Table';
+import { createMount, createShallow, getClasses } from 'material-ui-next/test-utils';
 import { GroupPanelItem } from './group-panel-item';
 
 const ENTER_KEY_CODE = 13;

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Chip from 'material-ui/Chip';
-import { withStyles } from 'material-ui/styles';
+import Chip from 'material-ui-next/Chip';
+import { withStyles } from 'material-ui-next/styles';
 
 const styles = theme => ({
   container: {

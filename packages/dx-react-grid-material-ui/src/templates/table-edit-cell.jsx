@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Input from 'material-ui/Input';
-import { TableCell } from 'material-ui/Table';
-import { withStyles } from 'material-ui/styles';
+import Input from 'material-ui-next/Input';
+import { TableCell } from 'material-ui-next/Table';
+import { withStyles } from 'material-ui-next/styles';
 
 const styles = theme => ({
   cell: {

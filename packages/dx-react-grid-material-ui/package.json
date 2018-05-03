@@ -14,14 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/DevExpress/devextreme-reactive.git"
   },
-  "keywords": [
-    "react",
-    "data",
-    "grid",
-    "table",
-    "material",
-    "react-component"
-  ],
+  "keywords": ["react", "data", "grid", "table", "material", "react-component"],
   "license": "SEE LICENSE IN README.md",
   "publishConfig": {
     "access": "public"
@@ -29,9 +22,7 @@
   "main": "dist/dx-react-grid-material-ui.cjs.js",
   "module": "dist/dx-react-grid-material-ui.es.js",
   "globalName": "DevExpress.DXReactGridMaterialUI",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "types": "dist/dx-react-grid-material-ui.d.ts",
   "scripts": {
     "test": "jest",
@@ -47,7 +38,7 @@
     "@devexpress/dx-react-core": "1.2.0-beta.3",
     "@devexpress/dx-react-grid": "1.2.0-beta.3",
     "@devexpress/dx-testing": "1.2.0-beta.3",
-    "@material-ui/icons": "1.0.0-beta.43",
+    "material-ui-icons": "1.0.0-beta.43",
     "babel-core": "^6.26.3",
     "babel-jest": "^22.4.3",
     "babel-plugin-external-helpers": "^6.22.0",
@@ -70,7 +61,7 @@
     "jss": "^9.8.1",
     "jss-preset-default": "^4.3.0",
     "jss-theme-reactor": "^0.11.1",
-    "material-ui": "1.0.0-beta.43",
+    "material-ui-next": "1.0.0-beta.43",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
@@ -87,8 +78,8 @@
     "@devexpress/dx-grid-core": "1.2.0-beta.3",
     "@devexpress/dx-react-core": "1.2.0-beta.3",
     "@devexpress/dx-react-grid": "1.2.0-beta.3",
-    "@material-ui/icons": "1.0.0-beta.43",
-    "material-ui": "1.0.0-beta.43",
+    "material-ui-icons": "1.0.0-beta.43",
+    "material-ui-next": "1.0.0-beta.43",
     "react": "^16.2.0"
   }
 }

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import { Table as TableBase } from '@devexpress/dx-react-grid';
-import { TableBody, TableHead } from 'material-ui/Table';
+import { TableBody, TableHead } from 'material-ui-next/Table';
 import { Table as TableComponent } from '../templates/table';
 import { TableRow } from '../templates/table-row';
 import { TableLayout } from '../templates/table-layout';

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
-import CheckboxMUI from 'material-ui/Checkbox';
-import { withStyles } from 'material-ui/styles';
+import CheckboxMUI from 'material-ui-next/Checkbox';
+import { withStyles } from 'material-ui-next/styles';
 
 const styles = theme => ({
   checkbox: {

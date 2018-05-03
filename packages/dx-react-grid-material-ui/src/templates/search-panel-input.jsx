@@ -1,8 +1,8 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Input, { InputAdornment } from 'material-ui/Input';
-import Search from '@material-ui/icons/Search';
+import { withStyles } from 'material-ui-next/styles';
+import Input, { InputAdornment } from 'material-ui-next/Input';
+import Search from 'material-ui-next-icons/Search';
 
 const styles = theme => ({
   root: {

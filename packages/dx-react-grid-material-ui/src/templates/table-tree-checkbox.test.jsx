@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Checkbox from 'material-ui/Checkbox';
-import { createShallow } from 'material-ui/test-utils';
+import Checkbox from 'material-ui-next/Checkbox';
+import { createShallow } from 'material-ui-next/test-utils';
 import { setupConsole } from '@devexpress/dx-testing';
 import { TableTreeCheckbox } from './table-tree-checkbox';
 

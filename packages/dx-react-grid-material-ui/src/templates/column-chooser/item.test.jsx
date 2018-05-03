@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { ListItem, ListItemText } from 'material-ui/List';
-import Checkbox from 'material-ui/Checkbox';
+import { ListItem, ListItemText } from 'material-ui-next/List';
+import Checkbox from 'material-ui-next/Checkbox';
 import { mount, shallow } from 'enzyme';
 import { Item } from './item';
 

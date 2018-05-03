@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { TableSortLabel } from 'material-ui/Table';
-import Chip from 'material-ui/Chip';
-import { withStyles } from 'material-ui/styles';
+import { TableSortLabel } from 'material-ui-next/Table';
+import Chip from 'material-ui-next/Chip';
+import { withStyles } from 'material-ui-next/styles';
 
 const ENTER_KEY_CODE = 13;
 const SPACE_KEY_CODE = 32;

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Input from 'material-ui/Input';
-import { TableCell } from 'material-ui/Table';
-import { createShallow, getClasses } from 'material-ui/test-utils';
+import Input from 'material-ui-next/Input';
+import { TableCell } from 'material-ui-next/Table';
+import { createShallow, getClasses } from 'material-ui-next/test-utils';
 import { EditCell } from './table-edit-cell';
 
 describe('EditCell', () => {

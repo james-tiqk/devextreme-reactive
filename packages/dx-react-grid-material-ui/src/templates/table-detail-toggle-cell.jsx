@@ -1,12 +1,12 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { TableCell } from 'material-ui/Table';
-import { withStyles } from 'material-ui/styles';
+import { TableCell } from 'material-ui-next/Table';
+import { withStyles } from 'material-ui-next/styles';
 
-import ExpandMore from '@material-ui/icons/ExpandMore';
-import ExpandLess from '@material-ui/icons/ExpandLess';
-import IconButton from 'material-ui/IconButton';
+import ExpandMore from 'material-ui-next-icons/ExpandMore';
+import ExpandLess from 'material-ui-next-icons/ExpandLess';
+import IconButton from 'material-ui-next/IconButton';
 
 const styles = theme => ({
   toggleCell: {

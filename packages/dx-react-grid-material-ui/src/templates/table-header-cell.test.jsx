@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { TableCell, TableSortLabel } from 'material-ui/Table';
-import { createMount, createShallow, getClasses } from 'material-ui/test-utils';
+import { TableCell, TableSortLabel } from 'material-ui-next/Table';
+import { createMount, createShallow, getClasses } from 'material-ui-next/test-utils';
 import { setupConsole } from '@devexpress/dx-testing';
 import { DragDropProvider, DragSource } from '@devexpress/dx-react-core';
 import { TableHeaderCell } from './table-header-cell';

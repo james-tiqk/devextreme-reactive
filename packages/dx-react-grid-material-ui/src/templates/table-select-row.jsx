@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { TableRow } from 'material-ui/Table';
+import { TableRow } from 'material-ui-next/Table';
 
 export const TableSelectRow = ({
   selected, selectByRowClick, onToggle,

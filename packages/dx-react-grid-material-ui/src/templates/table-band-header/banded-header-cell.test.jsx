@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { createShallow } from 'material-ui/test-utils';
+import { createShallow } from 'material-ui-next/test-utils';
 import { BandedHeaderCell } from './banded-header-cell';
 
 describe('BandedHeaderCell', () => {

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { TableSortLabel } from 'material-ui/Table';
-import Tooltip from 'material-ui/Tooltip';
-import { withStyles } from 'material-ui/styles';
+import { TableSortLabel } from 'material-ui-next/Table';
+import Tooltip from 'material-ui-next/Tooltip';
+import { withStyles } from 'material-ui-next/styles';
 
 const styles = theme => ({
   tooltipRoot: {
